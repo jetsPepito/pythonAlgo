@@ -1,4 +1,4 @@
-from exo import addString, averageLen, dico, fibo, firstUniqueChar, get30, getMax, inverseInt, palindrome
+from exo import addString, averageLen, dico, fibo, firstUniqueChar, get30, getMax, inverseInt, palindrome, perfectSquare
 
 
 def test_get30():
@@ -40,3 +40,6 @@ def test_dico():
 
 def test_firstUniqueChar():
     assert(firstUniqueChar("Europe")) == "u"
+
+def test_perfect_square():
+    assert(perfectSquare(3,15)) == [4,9]
